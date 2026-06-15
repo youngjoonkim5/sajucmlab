@@ -1,0 +1,13 @@
+{
+  "name": "sajucmlab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --port=8081",
+    "serve": "eleventy --serve --port=8081"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "latest"
+  }
+}
