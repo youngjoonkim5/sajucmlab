@@ -5,7 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }} | 사주천명연구소</title>
   <meta name="description" content="{{ description or title }}">
+
+  <!-- Canonical -->
   <link rel="canonical" href="https://sajucmlab.com{{ page.url }}">
+
+  <!-- Open Graph (소셜 공유 + Google Image SEO) -->
+  <meta property="og:type" content="{{ og_type or 'article' }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description or title }}">
+  <meta property="og:url" content="https://sajucmlab.com{{ page.url }}">
+  <meta property="og:site_name" content="사주천명연구소">
+  <meta property="og:locale" content="ko_KR">
+  {% if image %}
+  <meta property="og:image" content="https://sajucmlab.com{{ image }}">
+  <meta property="og:image:secure_url" content="https://sajucmlab.com{{ image }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ image_alt or title }}">
+  {% endif %}
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="{{ twitter_card or 'summary_large_image' }}">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="description" content="{{ description or title }}">
+  {% if image %}
+  <meta name="twitter:image" content="https://sajucmlab.com{{ image }}">
+  <meta name="twitter:image:alt" content="{{ image_alt or title }}">
+  {% endif %}
+
+  <!-- Mermaid (인포그래픽 렌더링) -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.mermaid) {
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: 'base',
+          themeVariables: {
+            primaryColor: '#fef3c7',
+            primaryTextColor: '#78350f',
+            primaryBorderColor: '#f59e0b',
+            lineColor: '#d97706',
+            secondaryColor: '#fff7ed',
+            tertiaryColor: '#fffbeb'
+          },
+          flowchart: { curve: 'basis', padding: 12 },
+          fontFamily: 'system-ui, -apple-system, sans-serif'
+        });
+      }
+    });
+  </script>
+
+  <style>
+    .language-mermaid { background: #fffbeb; padding: 1.25rem; border-radius: 0.5rem; margin: 1.5rem 0; }
+    pre { background: #f9fafb; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; }
+  </style>
 </head>
 <body>
   <header>

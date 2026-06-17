@@ -15,6 +15,11 @@ keyword: "2026년 병오년 말띠 아기 운세"
 author: "사주천명연구소"
 layout: "post.njk"
 draft: false
+# SEO / Open Graph (소셜 공유 + Google Image 검색)
+image: "/assets/images/2026-byeongo-maldi-og.svg"
+image_alt: "2026년 병오년 출생 말띠 아기를 따뜻한 톤으로 표현한 그래픽. 丙午년 화(火)의 기운을 상징하는 태양과 부드러운 산 실루엣이 배경에 깔려 있으며, 사주천명연구소 sajucmlab.com 표기가 포함됨"
+og_type: "article"
+twitter_card: "summary_large_image"
 ---
 
 # 2026년 병오년 말띠 아기 운세, 명리 4기준으로 보는 성격·건강·관계
@@ -58,6 +63,32 @@ draft: false
 ## 학부모가 살펴볼 만한 명리 4기준
 
 사주에서 아이의 흐름을 가늠할 때, 연구소에서는 네 가지 기준을 함께 봅니다. 어느 한 기준만으로 단정하지 않고, 네 가지가 겹치는 결을 찾습니다.
+
+```mermaid
+%% 명리 4기준 시각화 (sajucmlab.com 렌더링됨)
+graph TD
+    A[2026년 병오년 출생아<br/>사주 원국]
+    A --> B[병화 丙火<br/>일간의 기운]
+    A --> C[기토 己土<br/>오행의 균형]
+    A --> D[대운 大運<br/>10년 단위]
+    A --> E[세운 歲運<br/>2026년 한 해]
+
+    B --> F[학부모 시선<br/>표현 욕구 + 따뜻함]
+    C --> G[학부모 시선<br/>일관된 일상 리듬]
+    D --> H[학부모 시선<br/>한 시점에 단정 X]
+    E --> I[학부모 시선<br/>한 해에 묶이지 않기]
+
+    style A fill:#fef3c7,stroke:#f59e0b,stroke-width:3px,color:#92400e
+    style B fill:#fed7aa,stroke:#ea580c,color:#7c2d12
+    style C fill:#fef3c7,stroke:#d97706,color:#78350f
+    style D fill:#e0e7ff,stroke:#6366f1,color:#312e81
+    style E fill:#fce7f3,stroke:#db2777,color:#831843
+    style F fill:#fff7ed,stroke:#ea580c,color:#7c2d12
+    style G fill:#fffbeb,stroke:#d97706,color:#78350f
+    style H fill:#eef2ff,stroke:#6366f1,color:#312e81
+    style I fill:#fdf2f8,stroke:#db2777,color:#831843
+```
+
 ### 기준 1 — 병화(丙火): 일간의 기운
 
 2026년 출생아의 일간이 병화(丙火)라면, 본인의 기본 성향이 **밝고 표현적이며 확장하는 결**입니다. 병화는 "태양"에 비유되는 기운으로, 사주에서 인성(印星)을 잘 받으면 학업·예체능 쪽으로 결이 흐를 수 있습니다.
@@ -84,6 +115,31 @@ draft: false
 > 💡 **사주 용신과의 연결**: 사주 원국에서 아이의 용신을 알고 싶다면, [사주 용신 찾는법 가이드](https://sajucmlab.com/saju-yongshin-guide/)의 3단계 절차로 직접 계산해 볼 수 있습니다. 부모 사주와 자녀 사주의 관계 흐름은 [사주 궁합 가이드](https://sajucmlab.com/saju-gunghap-guide/)에서 따로 다루고 있어요.
 
 ## 2026년 말띠 학부모 가이드
+
+```mermaid
+%% 학부모 가이드 4축 시각화 (sajucmlab.com 렌더링됨)
+graph LR
+    subgraph "학부모 가이드 4축"
+        P[성격<br/>표현을 받아주는 안전함]
+        H[건강<br/>화가 약해지는 시기 관리]
+        R[관계<br/>일찍 확장하는 결]
+        E[교육<br/>1~6세 권장 방향]
+    end
+
+    P --> P1[일관된 반응으로<br/>신뢰 형성]
+    H --> H1[늦가을·겨울<br/>활동량 조절]
+    R --> R1[조부모·보육교사<br/>일관된 반응]
+    E --> E1[강제 학습보다<br/>감각 확장 놀이]
+
+    style P fill:#fef3c7,stroke:#f59e0b,color:#78350f
+    style H fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+    style R fill:#fce7f3,stroke:#db2777,color:#831843
+    style E fill:#d1fae5,stroke:#10b981,color:#064e3b
+    style P1 fill:#fffbeb,stroke:#d97706,color:#78350f
+    style H1 fill:#eff6ff,stroke:#3b82f6,color:#1e3a8a
+    style R1 fill:#fdf2f8,stroke:#db2777,color:#831843
+    style E1 fill:#ecfdf5,stroke:#10b981,color:#064e3b
+```
 
 ### 1. 성격 — 표현을 받아주는 안전함
 
@@ -144,6 +200,9 @@ draft: false
   "@type": "Article",
   "headline": "2026년 병오년 말띠 아기 운세, 명리 4기준으로 보는 성격·건강·관계",
   "description": "2026년 병오년 출생 말띠 아기의 운세를 명리 4기준(병화·기토·대운·세운)으로 풀어봤어요. 학부모 시선의 성격·건강·관계 흐름과 교육 포인트를 참고용으로 정리했습니다.",
+  "image": [
+    "https://sajucmlab.com/assets/images/2026-byeongo-maldi-og.svg"
+  ],
   "author": {
     "@type": "Organization",
     "name": "사주천명연구소",
@@ -152,7 +211,11 @@ draft: false
   "publisher": {
     "@type": "Organization",
     "name": "사주천명연구소",
-    "url": "https://sajucmlab.com"
+    "url": "https://sajucmlab.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sajucmlab.com/assets/images/sajucmlab-logo.png"
+    }
   },
   "datePublished": "2026-06-17",
   "dateModified": "2026-06-17",

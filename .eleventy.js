@@ -10,4 +10,7 @@ module.exports = function(eleventyConfig) {
     var d = (date instanceof Date) ? date : new Date(date);
     return d.toISOString();
   });
+
+  // Pass through static assets (images, fonts, etc.) to the output
+  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 };
