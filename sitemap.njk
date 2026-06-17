@@ -7,7 +7,12 @@ eleventyExcludeFromCollections: true
   <url>
     <loc>https://sajucmlab.com/</loc>
   </url>
+  {%- for post in collections.post %}
+  {%- if post.url %}
   <url>
-    <loc>https://sajucmlab.com/internet-saju-site-recommendation/</loc>
+    <loc>https://sajucmlab.com{{ post.url }}</loc>
+    <lastmod>{{ post.date | dateToIso }}</lastmod>
   </url>
+  {%- endif %}
+  {%- endfor %}
 </urlset>
