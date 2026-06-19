@@ -11,6 +11,10 @@ module.exports = function(eleventyConfig) {
     return d.toISOString();
   });
 
+  eleventyConfig.addFilter("jsonify", function(value) {
+    return JSON.stringify(value, null, 2);
+  });
+
   // Pass through static assets (images, fonts, etc.) to the output
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 };

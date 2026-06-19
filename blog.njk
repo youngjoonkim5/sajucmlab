@@ -1,0 +1,115 @@
+---
+permalink: /blog/
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>블로그 | 사주천명연구소</title>
+  <meta name="description" content="사주천명연구소의 사주명리 연구, 운세, 궁합, 용신, 사업운 콘텐츠를 모아 둔 블로그입니다.">
+  <link rel="canonical" href="https://sajucmlab.com/blog/">
+  <style>
+    :root {
+      --ink: #1b1b1f;
+      --muted: #62646f;
+      --line: #ddd8cf;
+      --paper: #fbfaf7;
+      --panel: #ffffff;
+      --accent: #8d2f23;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(980px, calc(100% - 40px)); margin: 0 auto; }
+    header { border-bottom: 1px solid var(--line); background: rgba(251, 250, 247, .94); }
+    .nav {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand { font-weight: 900; }
+    .nav a:not(.brand) {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+      font-size: 13px;
+      font-weight: 800;
+    }
+    main { padding: 72px 0; }
+    h1 { margin: 0 0 12px; font-size: clamp(38px, 7vw, 64px); line-height: 1.05; }
+    .lead { margin: 0 0 36px; color: var(--muted); font-size: 18px; }
+    .posts { display: grid; gap: 14px; }
+    .post {
+      display: grid;
+      gap: 8px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+    .post strong { font-size: 19px; }
+    .post span { color: var(--muted); }
+    .post:hover strong { color: var(--accent); }
+    footer { padding: 28px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/">사주천명연구소</a>
+      <nav aria-label="블로그 내비게이션">
+        <a href="/">홈</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <h1>블로그</h1>
+      <p class="lead">사주명리 연구와 상담 인사이트를 주제별로 정리했습니다.</p>
+      <div class="posts">
+        <a class="post" href="/internet-saju-site-recommendation/">
+          <strong>인터넷 사주 사이트 추천 가이드</strong>
+          <span>처음 사주 상담을 고를 때 확인할 기준을 정리했습니다.</span>
+        </a>
+        <a class="post" href="/internet-saju-wellseen-guide/">
+          <strong>인터넷 사주를 잘 보는 방법</strong>
+          <span>온라인 사주 풀이를 더 현실적으로 읽는 기준입니다.</span>
+        </a>
+        <a class="post" href="/saju-gunghap-guide/">
+          <strong>사주 궁합 가이드</strong>
+          <span>관계와 궁합을 명리 관점에서 이해하는 방법입니다.</span>
+        </a>
+        <a class="post" href="/saju-rejeok-saeopun-guide/">
+          <strong>사주 적성 및 사업운 가이드</strong>
+          <span>적성, 일, 사업 방향을 볼 때 참고할 핵심 관점입니다.</span>
+        </a>
+        <a class="post" href="/saju-yongshin-guide/">
+          <strong>사주 용신 가이드</strong>
+          <span>용신의 의미와 해석 기준을 쉽게 정리했습니다.</span>
+        </a>
+        <a class="post" href="/2026-byeongo-maldi-baby/">
+          <strong>2026 병오년 말띠 아기 운세</strong>
+          <span>명리 기준으로 보는 성격, 건강, 관계 흐름입니다.</span>
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">© 2026 사주천명연구소(四柱天命硏究所)</div>
+  </footer>
+</body>
+</html>
