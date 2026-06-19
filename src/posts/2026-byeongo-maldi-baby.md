@@ -16,7 +16,6 @@ author: "사주천명연구소"
 layout: "post.njk"
 draft: false
 # SEO / Open Graph (소셜 공유 + Google Image 검색)
-image: "/assets/images/2026-byeongo-maldi-og.svg"
 image_alt: "2026년 병오년 출생 말띠 아기를 따뜻한 톤으로 표현한 그래픽. 丙午년 화(火)의 기운을 상징하는 태양과 부드러운 산 실루엣이 배경에 깔려 있으며, 사주천명연구소 sajucmlab.com 표기가 포함됨"
 og_type: "article"
 twitter_card: "summary_large_image"
@@ -200,9 +199,6 @@ graph LR
   "@type": "Article",
   "headline": "2026년 병오년 말띠 아기 운세, 명리 4기준으로 보는 성격·건강·관계",
   "description": "2026년 병오년 출생 말띠 아기의 운세를 명리 4기준(병화·기토·대운·세운)으로 풀어봤어요. 학부모 시선의 성격·건강·관계 흐름과 교육 포인트를 참고용으로 정리했습니다.",
-  "image": [
-    "https://sajucmlab.com/assets/images/2026-byeongo-maldi-og.svg"
-  ],
   "author": {
     "@type": "Organization",
     "name": "사주천명연구소",
@@ -212,10 +208,6 @@ graph LR
     "@type": "Organization",
     "name": "사주천명연구소",
     "url": "https://sajucmlab.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://sajucmlab.com/assets/images/sajucmlab-logo.png"
-    }
   },
   "datePublished": "2026-06-17",
   "dateModified": "2026-06-17",
